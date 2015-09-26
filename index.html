@@ -23,6 +23,15 @@
       <p>This is an example visualization critique of a great visualization created by the master of interactive visualization and design, <a href="http://www.datapolitan.com" target="_blank">Richard Dunks</a>. In this latest incarnation, he has remade a visualization from the <a href="http://cbcny.org" target="_blank">Citizens Budget Commission</a> using CartoDB, Leaflet, D3.js, and jQuery. While the <a href="http://interactive.cbcny.org/nyct-station-conditions" target="_blank">original visualization</a> showed the data in an interactive format using <a href="http://public.tableau.com" target ="_blank">Tableau Public</a>, Richard created a custom JavaScript map and was able to better display the data, providing multiple data layers and better interactivity with the data.</p>
       <p>You can see <a href="http://www.datapolitan.com/mta_station_repair_status/" target="_blank">the full map here</a> and a <a href="http://wp.me/p2PLpM-1QD" target="_blank">blogpost about the map here</a>.
     </div>
+    <div class='vis-critique'>
+      <h3>Neutrino Hotspots on Earth - Mark Yarish</h3>
+      http://www.sciencefriday.com/segment/09/18/2015/mapping-out-neutrino-hotspots-here-on-earth.html
+
+      <p>For my critique this week, I choose a map with highlights the Neutrino Hotspots on Earth. I had noticed the map earlier in the week, the bright colors (mostly red & orange) really attract your eyes. I had to read more about the map, the vibrant colors were screaming for my attention.
+
+      I think the map works. The cartographer is trying to make a point to high light the hot spots on earth. If you take a look at the original scientific paper, the writers did map out both the natural and the man made decay. These maps were less eye catching, hence they were emitted from most of the news outlets that published the map. The oiginal maps are at http://www.nature.com/articles/srep13945</p>
+      </div>
+        
     <div class='project'>
       <h3>Visualizing Subway Usage in New York City - Richard Dunks</h3>
       Here is my awesome CartoDB visualization using Census data and NYCT subway route shapefiles:
@@ -31,6 +40,22 @@
 
       <iframe width="100%" height="520" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/c0d4f39e-962e-11e4-9b3b-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
     </div>
+    <div class='project'>
+      <h3>DOB Open Jobs (August 25-present) - Mark Yarish</h3>
+        <p>For my current project, I created a map to show the current DOB job status for the borough of Brooklyn. At first, I downloaded the entire file which contained years worth of records for all of New York City. The file was 126 mb. This file was too large so I then used the filtering tool in the city's open data portal to just download the data for the borough of Brooklyn. 
+        The file for Brooklyn was 26 mb, still to large to work with in CartoDB. I opened the file in OpenRefine. I used my NYC Geoclient to convert the Bin column to new columns with both latitude and longitude. I also used OpenRefine to filter out just the Jobs for the last 30 days. I then downloaded the csv file to my computer & then uploaded it into CartoDB.
+        I styled my map by using the Stamen Toner Basemap. Instead of using a default icon, I uploaded a hammer on a yellow background. I thought this would be eye catching. 
+
+        I would have liked to include all of the data for the city. Unfortunatly, I could not as it took a real long time to upload a large file to CartoDB. I would also have liked to link other data layers with stalled jobs & complaints about jobs. From looking at the map, you can see that there is so much more activity in North Brooklyn vs South Brooklyn.
+      <iframe width="100%" height="520" frameborder="0" src="https://myarish.cartodb.com/viz/c23b2bd8-63e5-11e5-8c48-0e5b35a699a7/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      
+      <br>
+      <br>
+
+ 
+    </div>
+
+
 
   </body>
 
